@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch";
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* background-color: bisque; */
+}
+
+.nav_left{
+    color: green;
+    cursor: pointer;
+    text-transform: lowercase;
+    font-size: 1.3rem;
+}
+
+.nav_right li{
+    color: grey;
+    padding-left: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+}
+.nav_right ul{
+    list-style: none;
+}
+.nav_right li:hover{
+    color: black;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.left_box{
+    padding: 1rem;
+    margin-left: 10rem;
+    width: 32rem;
+} 
+
+.left_box h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.left_box p{
+    padding: 0.4rem;
+    color: grey;
+}
+
+.right_box img{
+    margin-right: rem;
+}
+
+button{
+    margin-top: 2.5rem;
+    padding: 0.6rem 1.2rem;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+button img{
+    filter:invert(10);
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
+
+button:hover{
+    background-color: rgb(83, 155, 83);
+}
